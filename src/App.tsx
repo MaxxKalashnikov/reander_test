@@ -6,6 +6,7 @@ const [hello, setHello] = useState<string>("")
     <div className="hello">
       <h2>{hello}</h2>
       <button onClick={()=>setHello("hello world!")}>CLICK ME</button>
+      <button onClick={()=>setHello("hello world from the second button!")}>CLICK ME AGAIN</button>
     </div>  
   )
 }
